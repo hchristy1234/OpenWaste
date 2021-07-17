@@ -9,6 +9,11 @@
     border-radius: 50px;
 }
 
+.topnav a.active {
+    background-color: #BD8E8E;
+    border-radius: 50px;
+  }
+
 .home {
     background-color: #494949;
 }
@@ -37,4 +42,7 @@
 }
 .trybutton {
     border: 3px solid black;
+}
+.homeSearch {
+    background-color: #494949;
 }
