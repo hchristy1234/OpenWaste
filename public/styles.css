@@ -20,7 +20,21 @@
 .learn {
     border: 5px solid #C78D8D;
 }
+.learn:hover{
+    background-color: #C78D8D;
+}
 
 .break {
     border: 1px solid #9A6C6C;
+}
+
+.whatIs {
+    color: #404040;
+}
+
+.stats {
+    background-color: #D39494;
+}
+.trybutton {
+    border: 3px solid black;
 }
