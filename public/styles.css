@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navitem:hover {
+    background-color: #BD8E8E;
+    border-radius: 50px;
+}
+
+.home {
+    background-color: #494949;
+}
+
+.waste {
+    color: #D39494;
+}
+
+.learn {
+    border: 5px solid #C78D8D;
+}
+
+.break {
+    border: 1px solid #9A6C6C;
+}
