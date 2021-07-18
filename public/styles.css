@@ -62,3 +62,10 @@
 .submit:hover {
     cursor: pointer;
 }
+
+.submithome {
+    background-color: #BD8E8E;
+}
+.submithome:hover {
+    cursor: pointer;
+}
