@@ -46,3 +46,19 @@
 .homeSearch {
     background-color: #494949;
 }
+
+.pink {
+    background-color: #BD8E8E;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.submit {
+    background-color: #BD8E8E;
+}
+
+.submit:hover {
+    cursor: pointer;
+}

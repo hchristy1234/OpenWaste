@@ -12,9 +12,9 @@
 
 <body class='homeSearch'>
     <div class="topnav text-center py-8">
-        <a class="navitem text-white px-4 py-2" href="#home">Home</a>
-        <a class="navitem text-white px-4 py-2" href="#about">About</a>
-        <a class="navitem active text-white px-4 py-2" href="./homes.html">OpenWaste Homes</a>
+        <a class="navitem text-white px-4 py-2" href="./index.html">Home</a>
+        <a class="navitem text-white px-4 py-2" href="./index.html#about">About</a>
+        <a class="navitem active text-white px-4 py-2" href="#">OpenWaste Homes</a>
         <a class="navitem text-white px-4 py-2" href="#">Add My Home</a>
     </div>
     <hr class="break">
@@ -22,34 +22,67 @@
     </h1>
     <div class="text-center">
         <input class="w-2/5 mt-10 px-5 py-2 rounded-full" type="text" placeholder="Search for an address">
+        <input class="submit text-white px-4 py-2 rounded-full hover:cursor-pointer hover:bg-gray-400" type="submit">
     </div>
-    <h2 class="browse text-white text-3xl ml-40 mt-14 font-semibold">Browse</h2>
-    <table class="table-auto">
-        <thead>
-            <tr>
-                <th>Address</th>
-                <th>Distance</th>
-                <th>Status</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Intro to CSS</td>
-                <td>Adam</td>
-                <td>858</td>
-            </tr>
-            <tr class="bg-emerald-200">
-                <td>A Long and Winding Tour of the History of UI Frameworks and Tools and the Impact on Design</td>
-                <td>Adam</td>
-                <td>112</td>
-            </tr>
-            <tr>
-                <td>Intro to JavaScript</td>
-                <td>Chris</td>
-                <td>1,280</td>
-            </tr>
-        </tbody>
-    </table>
+    <h2 class="browse text-white text-3xl ml-40 mt-14 mb-10 font-semibold">Browse</h2>
+    <div class="table text-center content-center ml-40 text-white text-xl mb-20">
+        <table class="table-auto center">
+            <thead>
+                <tr>
+                    <th class="pr-5">Address</th>
+                    <th class="pr-5">Distance</th>
+                    <th class="pr-5">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="pink">
+                    <td class="pr-5 pl-5 py-2">1234 Ghostly Ave, San Jose, CA, 94088</td>
+                    <td class="pr-5 py-2">0.05 mi</td>
+                    <td class="pr-5 py-2">open</td>
+                </tr>
+                <tr class="grey">
+                    <td class="pr-5 pl-5 py-2">1234 Oompa Ave, San Jose, CA, 94088 </td>
+                    <td class="pr-5 py-2">0.07 mi</td>
+                    <td class="pr-5 py-2">open</td>
+                </tr>
+                <tr class="pink">
+                    <td class="pr-5 pl-5 py-2">2330 Wooper Ave, San Jose, CA, 94088 </td>
+                    <td class="pr-5 py-2">0.09 mi</td>
+                    <td class="pr-5 py-2">open</td>
+                </tr>
+                <tr class="grey">
+                    <td class="pr-5 pl-5 py-2">144 Snorlax Ave, San Jose, CA, 94088 </td>
+                    <td class="pr-5 py-2">0.12 mi</td>
+                    <td class="pr-5 py-2">closed</td>
+                </tr>
+                <tr class="pink">
+                    <td class="pr-5 pl-5 py-2">234 Zeek St, San Jose, CA, 94088</td>
+                    <td class="pr-5 py-2">0.14 mi</td>
+                    <td class="pr-5 py-2">open</td>
+                </tr>
+                <tr class="grey">
+                    <td class="pr-5 pl-5 py-2">938 Instez Ct, San Jose, CA, 94088</td>
+                    <td class="pr-5 py-2">0.17 mi</td>
+                    <td class="pr-5 py-2">open</td>
+                </tr>
+                <tr class="pink">
+                    <td class="pr-5 pl-5 py-2">97838 Forlone Ave, San Jose, CA, 94088</td>
+                    <td class="pr-5 py-2">0.18 mi</td>
+                    <td class="pr-5 py-2">closed</td>
+                </tr>
+                <tr class="grey">
+                    <td class="pr-5 pl-5 py-2">8393 Zephee St, San Jose, CA, 94088</td>
+                    <td class="pr-5 py-2">0.20 mi</td>
+                    <td class="pr-5 py-2">open</td>
+                </tr>
+                <tr class="pink">
+                    <td class="pr-5 pl-5 py-2">1290 Peppa Ave, San Jose, CA, 94088</td>
+                    <td class="pr-5 py-2">0.21 mi</td>
+                    <td class="pr-5 py-2">open</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 
 </html>
